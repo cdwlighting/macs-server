@@ -85,7 +85,7 @@ class Member extends BaseModel {
 	 * @param DateTime
 	 * @return Member
 	 */
-	public function setValidUntil(DateTime $validUntil)
+	public function setValidUntil($validUntil)
 	{
 		$this->validUntil = $validUntil;
 
